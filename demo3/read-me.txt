@@ -1,0 +1,5 @@
+﻿Các bước để chạy project:
+B1: Chạy các câu lệnh trong file Sqldemo.sql trên sql server.
+B2:Sửa lại server name trong file DBCotext ở dòng 21 trong packkage context
+B3:Chạy các servlet AdidasControl,VansControl,ConverseControl,User Control trong packgae control để load sản phẩm và user lên session.
+B4:Chạy file home.jsp để vào giao diện trang chủ. Còn trang của admin là chạy file Crud Product và Crud User(trước khi chạy 2 trang này phải chạy servlet AdidasControl và UserControl)

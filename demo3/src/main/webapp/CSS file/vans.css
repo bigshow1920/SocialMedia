@@ -1,0 +1,515 @@
+
+body{
+  /* background-color: rgb(236, 245, 242); */
+}
+nav {
+    margin-left: 50px;
+    
+  }
+
+  h2 {
+    color: gray;
+  }
+
+  h3 {
+    text-align: center;
+  }
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+  /*logo cho trang vans*/
+  #logovans{
+    width: 200px;
+    height: 70px;
+  
+  }
+ /* Styling cho phần Header */
+  #logo{
+    display:inline-block;
+    margin-left: 42%;
+    margin-top: 10px;
+    width: 350px;
+  }
+  
+  #menu-icon {
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+  }
+  
+  #package {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 5px;
+  }
+
+  #contact-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-right: 5px;
+  }
+
+  #search-box {
+    margin-left: 300px;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 30px; 
+  }
+  /*backtotop*/
+  .back-to-top{
+    display: scroll;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
+  
+  
+  /* Styling cho danh sách sản phẩm */
+  .list {
+    width: auto;
+  }
+  
+  .toggle-list {
+    width: 103px;
+    border: 1px solid white;
+    margin-top: 3px;
+  }
+  
+  ul#MenuItems li {
+    list-style-type: none;
+    float: left;
+    margin-right: 25px;
+    position: relative;
+    background: #3f3f3f;
+    padding: 3px;
+    font-weight: bold;
+    display: block;
+  }
+
+  ul#MenuItems li ul#smallmenu {
+    display: none;
+  }
+  ul#MenuItems li:hover ul#smallmenu {
+    display: block;
+  }
+  ul#MenuItems li ul#smallmenu {
+    display: none;
+    position: absolute;
+    width: 100px;
+  }
+  ul#MenuItems, ul#smallmenu {
+      padding:0;
+      margin: 0;
+  }
+  #smallmenu li a {
+    width: 146px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 1em;
+  }
+  
+  #MenuItems li a {
+      border-bottom: 1px solid white;
+      width: 146px;
+      height: 40px;
+      line-height: 40px;
+      padding: 20px;
+      text-decoration: none;
+      color: white;
+  }
+
+  
+
+  /* Styling cho công cụ filter */
+  #filter-tool {
+      display: block;
+      width: 200px;
+      height: 100%;
+      float: left;
+      margin-right: 20px;
+      margin-left: 15px;
+      margin-bottom: 15px;
+      border-right: 1px solid lightgray;
+  }
+
+  #filter-title {
+      display: block;
+      border-bottom: 1px solid lightgray;
+      margin-bottom: 10px;
+      text-align: left;
+  }
+
+  
+
+  #filter-element {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.padding-filter {
+  padding: 5px 0 10px;
+}
+
+
+/* Nút chọn giá sản phẩm */
+.btn {
+  width: 150px;
+  height: fit-content;
+  outline: none;
+  margin: 3px 0;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+  /* Danh mục sản phẩm */
+  #product-list {
+    margin-left: 19%;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+
+  #vans-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px lightgray;
+    margin-bottom: 10px;
+  }
+
+
+  /* Nút sắp xếp */
+  .sort-btn {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+
+  /* Thẻ sản phẩm */
+  #vans-product-card {
+    width: 300px;
+    height: 400px;
+    float: left;
+   
+  }
+
+  #asset-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  #product-img {
+    width: 250px;
+    height: 250px;
+    
+  }
+
+  #product-detail-top {
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #product-name {
+    font-size: 17px;
+  }
+
+  #product-price {
+    padding-top: 5px;
+    color: red;
+  }
+
+  #product-price-cross {
+    text-decoration: line-through;
+  }
+
+  /* Styling thông tin sản phẩm */
+  #productImg {
+    display: block;
+    width: 800px;
+    height: 625px;
+    background-color: #edeff0;
+    margin-left: 10%;
+    margin-right: 15px;
+    float: left;
+  }
+
+  /* Styling hình ảnh sản phẩm */
+  #productImg-img {
+    width: 550px;
+    height: 550px;
+    margin-left: 120px;
+  }
+
+  /* Styling những hình ảnh khác của sản phẩm */
+  #productImg-more {
+    width: auto;
+    height: 100px;
+    margin-left: 200px;
+  }
+
+  .productDetail-img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px white;
+    margin: 0 5px;
+    float: left;
+  }
+
+  .productDetail-img:hover {
+    width: 90px;
+    height: 90px;
+  }
+
+  .border-highlight:hover {
+    border: 2px solid blue;
+  }
+
+  /* Styling phần thông tin sản phẩm */
+  #productInf {
+    width: auto;
+    height: 750px;
+    float: left;
+  }
+
+  #productInf-price {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  #productInf-size {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  /* Styling nút chọn size giày */
+  #productInf-sizePicker {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .size-number {
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .sizeActive {
+    border: 2px solid ;
+    background-color: darkgray;
+  }
+
+  /* Styling bảng size giày */
+  #sizechart:hover {
+    width: 300px;
+    height: 500px;
+  }
+
+  /* Styling nút thêm vào giỏ hàng */
+  #addBtn {  
+    display: block;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 2px gray;
+    margin: 15px 0 0 250px;
+    float: right;
+    cursor: pointer;
+  }
+
+  /* Styling nút yêu thích */
+  #favorite {
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 20px 0 10px 460px;
+    cursor: pointer;
+  }
+
+  .favBtn {
+    border: none;
+    background-color: white;
+  }
+
+  .favBtnActive {
+    color: red;
+    border: none;
+  }
+
+  /* Sản phẩm liên quan */
+  #relatedProduct {
+    display: block;
+    width: 85%;
+    height: 300px;
+    margin: 0 0 5px 100px;
+    padding: 10px 0 20px;
+    border-top: 1px solid lightgray;
+    float: left;
+  }
+
+  /* Nút chuyển trang */
+  #pagination {
+    width: fit-content;
+    height: 100%;
+    margin-left: 50%;
+    margin-top: auto;
+    margin-bottom: 30px;
+  }
+
+  .page-number {
+    width: 30px;
+    font-size: 20px;
+    float: left;
+    margin: 5px 5px 20px;    
+  }
+
+  .page-number a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+/* Styling phần thông tin cửa hàng */
+#contact-Inf {
+    width: 350px;
+    height: fit-content;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding-right: 5px;
+}
+/* Styling phần follow */
+#follow {
+  width: 150px;
+  height: fit-content;
+  margin-right: 100px;
+  float: left;
+}
+
+#follow-us {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Styling phần chứng nhận chất lượng */
+#certificate {
+  width: fit-content;
+  height: fit-content;
+  float: left;
+}
+
+#certificate-img {
+    display: block;
+    width: 360px;
+    height: 184px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling phần footer */
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 50px;
+  float: left;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 50px;
+  float: left;
+  background: rgb(65, 64, 64);
+  color: #faf5f5;
+  font-size: 14px;
+  padding:  20px;
+}
+#follow {
+    width: 150px;
+    height: fit-content;
+    margin-right: 100px;
+    float: left;
+}
+
+#follow-us {
+    font-size: 20px;
+    font-weight: bold;
+}
+#certificate {
+  width: fit-content;
+  height: fit-content;
+  float: left;
+}
+#certificate-img {
+    display: block;
+    width: 360px;
+    height: 184px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact-Inf {
+    width: 350px;
+    height: fit-content;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding-right: 5px;
+}
+.slogan{
+  position: relative;
+  right: 10px;
+}
+ .mobile-app {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+#play-store {
+    margin-left: 30%;
+    float: left;
+}
+
+
+
+  
+
+

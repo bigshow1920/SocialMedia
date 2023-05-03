@@ -1,0 +1,250 @@
+nav {
+    margin-left: 50px;
+    
+  }
+
+  h2 {
+    color: gray;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+ /* Styling cho phần Header */
+  #logo{
+    display:inline-block;
+    margin-left: 40%;
+    margin-top: 20px;
+    
+  }
+  
+  #menu-icon {
+    width: 30px;
+    height: 30px;
+    padding-left: 15px;
+  }
+  
+  #package {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 25px;
+    left: 650px;
+
+  }
+
+  .contact-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-right: 5px;
+  }
+
+  #search-box {
+    margin-left: 900px;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 30px; 
+    position: relative;
+    top: 15px;
+  }
+  
+  /*backtotop*/
+  .back-to-top{
+    display: scroll;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
+  /* Styling cho danh sách sản phẩm */
+  .list {
+    width: auto;
+  }
+  
+  .toggle-list {
+    width: 103px;
+    border: 1px solid white;
+    margin-top: 3px;
+  }
+  
+  ul#MenuItems li {
+    list-style-type: none;
+    float: left;
+    margin-right: 25px;
+    position: relative;
+    background: #3f3f3f;
+    padding: 3px;
+    font-weight: bold;
+    display: block;
+    top: 50px;
+  }
+
+  ul#MenuItems li ul#smallmenu {
+    display: none;
+  }
+  ul#MenuItems li:hover ul#smallmenu {
+    display: block;
+  }
+  ul#MenuItems li ul#smallmenu {
+    display: none;
+    position: absolute;
+    width: 100px;
+  }
+  ul#MenuItems, ul#smallmenu {
+      padding:0;
+      margin: 0;
+  }
+  #smallmenu li a {
+    width: 146px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 1em;
+  }
+  
+  #MenuItems li a {
+      border-bottom: 1px solid white;
+      width: 146px;
+      height: 40px;
+      line-height: 40px;
+      padding: 20px;
+      text-decoration: none;
+      color: white;
+  }
+  /*.header{
+    position: fixed;
+    top: 0px;
+    background: white;
+  }*/
+/*home*/
+  .container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    float: left;
+}
+.col-4 img{
+  width: 300px;
+}
+.col-4 p{
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+}
+.col-4:hover{ 
+    transform: translateY(-15px); 
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.header row{
+  margin-top: 70px;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+
+}
+.title::after{
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.rating .fa{
+  color: #ff523b;
+}
+.cost{
+  font-weight: bold;
+  color: red;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 50px;
+  float: left;
+  background: rgb(65, 64, 64);
+  color: #faf5f5;
+  font-size: 14px;
+  padding:  20px;
+}
+#follow {
+    width: 150px;
+    height: fit-content;
+    margin-right: 100px;
+    float: left;
+}
+
+#follow-us {
+    font-size: 20px;
+    font-weight: bold;
+}
+#certificate {
+  width: fit-content;
+  height: fit-content;
+  float: left;
+}
+#certificate-img {
+    display: block;
+    width: 360px;
+    height: 184px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact-Inf {
+    width: 350px;
+    height: fit-content;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding-right: 5px;
+}
+.slogan{
+  position: relative;
+  right: 10px;
+}
